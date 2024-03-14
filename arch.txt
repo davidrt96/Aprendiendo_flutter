@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 sadfjaskjfdakjs
 David: Buenos dias 12:35
+=======
+Dvid putero
+>>>>>>> 27315df580cd0773a46d31766107d58f72ec657f
