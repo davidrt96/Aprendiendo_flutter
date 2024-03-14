@@ -9,7 +9,18 @@ void main(){
   var numero=1.0;
   
   print("$empleados - $pi - $numero");
+
+  //Variable válida en null safety
+  bool? isAlive;
+
+  //Interpolar strings, inyectar al código
+  print("$empleados - ${ nombre1.toUpperCase() }");
   
+  //Variable final
+  //es una constante
+  //late final no tiene valor, pero a la que se le pone valor se hace final
+  //const se crea en tiempo de contrucción
+
   String nombre="tony";
   print(nombre);
   print(nombre[0]);
@@ -30,8 +41,7 @@ void main(){
   //Lista de tamaño fijo
   List masNumeros=List(10);
   print(masNumeros);
-  masNumeros.add(1);
-
+  masNumeros.add(1);  
 
   //Tipo map String seria la etiqueta de tipo string, y dynamic que el valor de cada string puede ser de cualquier tipo
   String propiedad='soltero';
