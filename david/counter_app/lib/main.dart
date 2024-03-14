@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:counter_app/screens/home_screen.dart';
 
-void main(){
-  runApp(MyApp());
+
+void main() {
+  runApp(const MyApp());
 }
 
+class MyApp extends StatelessWidget {
+  //Constructor
+  const MyApp({super.key});
 
-class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Center(
-        child: Text("Hola mundo"),
-      ),
-    );
+    return const MaterialApp(
+        debugShowCheckedModeBanner: false, home: HomeScreen());
   }
 }
