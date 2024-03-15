@@ -1,4 +1,4 @@
-#Thu Mar 14 11:25:12 CET 2024
-base.0=C\:\\Users\\David\\workspace\\Aprendiendo_flutter\\david\\counter_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Fri Mar 15 12:49:33 CET 2024
+base.0=C\:\\Users\\David\\workspace\\Aprendiendo_flutter\\david\\ejercicios_flutter\\counter_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

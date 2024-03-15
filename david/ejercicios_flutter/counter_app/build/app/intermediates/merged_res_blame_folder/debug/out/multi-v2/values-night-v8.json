@@ -4,7 +4,7 @@
             "outputFile": "com.example.counter_app-mergeDebugResources-9:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\David\\workspace\\Aprendiendo_flutter\\david\\counter_app\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\David\\workspace\\Aprendiendo_flutter\\david\\ejercicios_flutter\\counter_app\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
