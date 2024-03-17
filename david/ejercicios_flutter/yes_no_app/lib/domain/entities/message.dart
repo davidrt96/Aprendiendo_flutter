@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
+//import 'package:flutter/material.dart';
 
-enum FromWho { mine, hers }
+enum FromWho { me, hers }
 
 class Message {
   final String text;

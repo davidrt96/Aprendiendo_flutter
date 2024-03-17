@@ -1,11 +1,12 @@
-import 'dart:html';
+//import 'dart:html';
 
 import 'package:flutter/material.dart';
 
-void main() => runApp(const MessageFieldBox());
-
 class MessageFieldBox extends StatelessWidget {
-  const MessageFieldBox({super.key});
+
+final ValueChanged<String>onValue;
+
+  const MessageFieldBox({super.key, required this.onValue});
 
   @override
   Widget build(BuildContext context) {
@@ -24,20 +25,22 @@ class MessageFieldBox extends StatelessWidget {
         suffixIcon: IconButton(
           icon: const Icon(Icons.send_outlined),
           onPressed: () {
-            //final textValue = textController.value.text;            
+            final textValue = textController.value.text;
             textController.clear();
+            onValue(textValue);
           },
         ));
-    return TextFormField(      
-      onTapOutside: (event){
+    return TextFormField(
+      onTapOutside: (event) {
         focusNode.unfocus();
       },
       focusNode: focusNode,
       controller: textController,
       decoration: inputDecoration,
-      onFieldSubmitted: (value) {        
+      onFieldSubmitted: (value) {
         textController.clear();
         focusNode.requestFocus();
+        onValue(value);
       },
     );
   }
