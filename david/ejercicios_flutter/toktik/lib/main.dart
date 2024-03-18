@@ -14,14 +14,13 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(
-          lazy: false,
-          create: (_)=>DiscoverProvider()..loadNextPage()),
+            lazy: false, create: (_) => DiscoverProvider()..loadNextPage()),
       ],
       child: MaterialApp(
           title: 'TokTik',
           debugShowCheckedModeBanner: false,
           theme: AppTheme().getTheme(),
-          home: const DiscoverScreen()   ),
+          home: const DiscoverScreen()),
     );
   }
 }
